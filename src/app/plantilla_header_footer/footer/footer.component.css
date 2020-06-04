@@ -1,0 +1,61 @@
+footer{
+  position: block;
+  background: #202021;
+  color: #C7C7C7;
+  height:50%;
+  width: 100%;
+}
+
+a{
+  color: #C7C7C7;
+}
+
+.container-footer-all{
+  width: 90%;
+  margin: auto;
+}
+.container-footer{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: #2023;
+  display: table-row;
+}
+
+.informacion{
+  color: #C7C7C7;
+}
+
+
+
+.row img{
+  width: 36px;
+  height: 36px;
+}
+.row label{
+  margin-top:10px;
+  margin-left: 20px;
+  color: #C7C7C7;
+}
+
+.leftpane {
+  width: 33%;
+  height: 100%;
+  float: left;
+  border-collapse: collapse;
+}
+
+.middlepane {
+  width: 33%;
+  height: 100%;
+  float: left;
+  border-collapse: collapse;
+}
+
+.rightpane {
+width: 33%;
+height: 100%;
+position: relative;
+float: left;
+border-collapse: collapse;
+}

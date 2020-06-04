@@ -1,0 +1,32 @@
+<header class="ae-container-fluid ae-container-fluid--full rk-header ">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" routerLink="home">{{infoPaginaService.info.titulo}}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li routerLinkActive="active" class="nav-item" >
+          <a class="nav-link" routerLink="home">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="rk-menu__item"><a href="#0" class="nav-link">Pages</a>
+          <nav class="rk-menu__sub">
+            <ul class="rk-container">
+              <li class="rk-menu__item"><a href="about.html" class="nav-link">About</a></li>
+              <li class="rk-menu__item"><a href="documentation.html" class="nav-link">Documentation</a></li>
+              <li class="rk-menu__item"><a href="design-styles.html" class="nav-link">Design Styles</a></li>
+            </ul>
+          </nav>
+        </li>
+        <li routerLinkActive="active" class="nav-item">
+          <a class="nav-link" routerLink="about"> Acerca de</a>
+        </li>
+      </ul>
+      <!--<form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>-->
+    </div>
+  </nav>
+</header>
